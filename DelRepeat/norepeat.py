@@ -3,6 +3,7 @@
 
 from collections import deque
 import sys
+import os
 
 usage = '''
 	python3 norepeat.py <filename>
@@ -40,6 +41,7 @@ def deal_repeat(f_handle):
 def write_to_file(filename,seq):
 
 	start = 'np_'
+	filename = os.path.basename(filename)
 	with open(start+filename,'w') as f:
 		for i in seq:
 			f.write(i)
