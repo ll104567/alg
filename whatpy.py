@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # coding:utf-8
-
+"""	
+	email : ll104567@163.com
+	author: Hu Shuai
+"""
 import xpinyin
 import sys
 
