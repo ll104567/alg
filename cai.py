@@ -31,7 +31,7 @@ def fact_solve(n):
 		print('Found:[{}]'.format(6174))
 		return 1 
 	else:
-		print('[{}] - [{}]'.format(big_small(n),small_big(n)))
+		print('[{:4}] - [{:4}] = [{:4}]'.format(big_small(n),small_big(n),big_small(n)-small_big(n)))
 		fact_solve(big_small(n)-small_big(n))
 
 if debug:
