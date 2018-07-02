@@ -11,7 +11,7 @@ def get_vaild_data(s):
 	input : string
 	output: Bool
 	'''
-	if len(s) < 4:
+	if len(str(int(s))) < 4:
 		return False
 	if len(set(list(s))) < 4:
 		return False
