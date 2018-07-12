@@ -6,9 +6,6 @@ def fibon(n):
 		yield(a)
 		a, b = b, a+b
 
-def get_list(n):
-	x = []
-	for i in fibon(n):
-		x.append(i)
-	return x
 
+for i in fibon(10):
+	print(i)
